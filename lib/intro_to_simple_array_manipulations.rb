@@ -16,4 +16,7 @@ end
   def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
     artists.concat
   end
+  def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+    artists.insert 
+  end
   

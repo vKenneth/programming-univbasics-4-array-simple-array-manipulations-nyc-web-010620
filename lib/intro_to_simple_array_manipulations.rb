@@ -25,4 +25,7 @@ end
   def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
     artists.flatten
   end
+  def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+    artists.delete
+  end
   

@@ -9,4 +9,8 @@ def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
 end
 def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
   artists.pop(2)
+end
+  def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+    artist.unshift
+  end
   

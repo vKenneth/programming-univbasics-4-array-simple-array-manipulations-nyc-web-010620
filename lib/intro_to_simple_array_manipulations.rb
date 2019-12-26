@@ -19,4 +19,7 @@ end
   def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
     artists.insert 
   end
+  def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+    artists.uniq 
+  end
   

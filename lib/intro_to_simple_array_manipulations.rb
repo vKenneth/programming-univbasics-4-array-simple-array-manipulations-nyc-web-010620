@@ -22,4 +22,7 @@ end
   def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
     artists.uniq 
   end
+  def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+    artists.flatten
+  end
   

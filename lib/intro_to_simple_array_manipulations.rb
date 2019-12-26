@@ -1,4 +1,6 @@
 def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
-  artists.push
+  artists.push(next_artist)
 end
-
+def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+  artists.unshift
+end

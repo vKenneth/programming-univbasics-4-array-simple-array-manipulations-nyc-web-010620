@@ -13,4 +13,7 @@ end
   def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
     artist.unshift
   end
+  def artists = ["Frida Kahlo", "Pablo Picasso", "Cai Guo-Qiang"]
+    artists.concat
+  end
   
